@@ -1,7 +1,16 @@
-function Button({text}) {
+
+
+// eslint-disable-next-line react/prop-types
+function Button({text,icon,symbol,onClick}) {
+
   return (
-    <button className="px-1 bg-red-700 mr-4  text-gray-50">
+    <button 
+    onClick={onClick}
+    className="flex items-center text-sm justify-center px-2"
+    >
+      {icon}
       {text}
+    <sup >{symbol}</sup>
     </button>
   )
 }

@@ -1,0 +1,19 @@
+export const paragraph=[
+    {id:1,
+    text:"Lorem"},
+    {id:2,
+    text:"Lorem Lorem"} ,
+    {id:3,
+    text:"Loremmm"}
+]
+
+export const paragraphContent=[
+    {id:1,
+    text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aspernatur facilis ipsa eos natus repellat labore reiciendis voluptas, explicabo deleniti laborum quo, tempora atque excepturi molestias illum! Modi, fugiat! Quos . Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sed atque excepturi nihil cum tempore corrupti ex et molestiae, consectetur repudiandae odit labore vel eligendi. Vero odit distinctio voluptates eaque! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam officia tenetur minus et atque beatae iure magnam. Provident officia possimus dolor ducimus nobis odio, accusamus quidem beatae, autem et adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nam. Maxime, eligendi quaerat magni sint eaque obcaecati labore, provident reiciendis repellendus ipsum officia sit accusamus quod id perferendis, tenetur ratione?"},
+    {id:2,
+    text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aspernatur facilis ipsa eos natus repellat labore reiciendis voluptas, explicabo deleniti laborum quo, tempora atque excepturi molestias illum! Modi, fugiat! Quos . Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sed atque excepturi nihil cum tempore corrupti ex et molestiae, consectetur repudiandae odit labore vel eligendi. Vero odit distinctio voluptates eaque! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam officia tenetur minus et atque beatae iure magnam. Provident officia possimus dolor ducimus nobis odio, accusamus quidem beatae, autem et adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nam. Maxime, eligendi quaerat magni sint eaque obcaecati labore, provident reiciendis repellendus ipsum officia sit accusamus quod id perferendis, tenetur ratione?"},
+    {id:3,
+    text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aspernatur facilis ipsa eos natus repellat labore reiciendis voluptas, explicabo deleniti laborum quo, tempora atque excepturi molestias illum! Modi, fugiat! Quos . Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sed atque excepturi nihil cum tempore corrupti ex et molestiae, consectetur repudiandae odit labore vel eligendi. Vero odit distinctio voluptates eaque! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam officia tenetur minus et atque beatae iure magnam. Provident officia possimus dolor ducimus nobis odio, accusamus quidem beatae, autem et adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nam. Maxime, eligendi quaerat magni sint eaque obcaecati labore, provident reiciendis repellendus ipsum officia sit accusamus quod id perferendis, tenetur ratione?"},
+    {id:4,
+    text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aspernatur facilis ipsa eos natus repellat labore reiciendis voluptas, explicabo deleniti laborum quo, tempora atque excepturi molestias illum! Modi, fugiat! Quos . Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sed atque excepturi nihil cum tempore corrupti ex et molestiae, consectetur repudiandae odit labore vel eligendi. Vero odit distinctio voluptates eaque! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam officia tenetur minus et atque beatae iure magnam. Provident officia possimus dolor ducimus nobis odio, accusamus quidem beatae, autem et adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nam. Maxime, eligendi quaerat magni sint eaque obcaecati labore, provident reiciendis repellendus ipsum officia sit accusamus quod id perferendis, tenetur ratione?"}
+]
