@@ -1,32 +1,22 @@
 import RedParagraph from "./RedParagraph"
 import DateAndTime from "./DateAndTime"
-// import ReadingModeSection from "./ReadingModeSection"
 import ShareButton from "./ShareButton"
 import {  useState } from "react"
 import { IoReaderOutline } from "react-icons/io5"
 import Button from "./Button"
 import  { paragraph ,paragraphContent} from "./Article.utility"
 function Article() {
+
 const [textSize,setTextSize]=useState(20)
 const [readMode,setReadMode]=useState(true)
  
-
 const readModeHandler=()=>{
   setReadMode(!readMode)
 }
-const zoominTextHandler=(size)=>{
-  setTextSize(()=>size+1)
-  console.log(textSize)
-}
-const zoomoutTextHandler=(size)=>{
-  setTextSize(()=>size-1)
-  console.log(textSize)
-}
-const defaultTextHandler=()=>{
-  setTextSize(20)
-  console.log(textSize)
-}
 
+const textChangrHandler=(size)=>{
+  setTextSize(size)
+}
 
   return (
     <div className="flex flex-col w-3/6 my-10 " >
@@ -47,9 +37,9 @@ const defaultTextHandler=()=>{
     <Button text={`${readMode===true? "Enable reading mode":"Disable reading mode"}`} icon={<IoReaderOutline/>} onClick={readModeHandler}/>
     <p className="px-2 text-gray-300">|</p>
 
-    <Button text="A" symbol="-" onClick={()=>zoomoutTextHandler(textSize)}/>
-    <Button text="A" onClick={()=>defaultTextHandler()} />
-    <Button text="A" symbol="+" onClick={()=>zoominTextHandler(textSize)}/></div>
+    <Button text="A" symbol="-" onClick={()=>textChangrHandler(textSize-1)}/>
+    <Button text="A" onClick={()=>textChangrHandler(20)} />
+    <Button text="A" symbol="+" onClick={()=>textChangrHandler(textSize+1)}/></div>
  
       </div>
       </div>
